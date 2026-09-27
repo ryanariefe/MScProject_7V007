@@ -1,0 +1,3 @@
+model_family,candidate_id,training_seconds,forecasting_seconds,negative_predictions,MAE,RMSE,WAPE,param_n_estimators,param_max_depth,param_min_samples_split,param_min_samples_leaf,param_max_features,param_learning_rate,param_subsample,param_colsample_bytree
+random_forest,rf_01_baseline,15.528332499990938,1.7323293999943417,0,1.1777869892561896,2.2783358058061522,0.7517154612728403,100,16,2.0,2.0,sqrt,,,
+xgboost,xgb_01_baseline,2.570148099999642,1.6048685999994632,0,1.247357968461488,2.408887949373099,0.7961187202675263,300,6,,,,0.05,0.8,0.8
